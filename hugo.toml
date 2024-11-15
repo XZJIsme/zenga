@@ -1,0 +1,34 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = "Hi, there! Welcome to Zhengjia Xu's page!"
+theme = "barks"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+
+[menu]
+[[menu.main]]
+    name = 'About Zenga'
+    pageRef = '/posts/intro'
+    weight = 10
+[[menu.main]]
+    name = 'Publications'
+    pageRef = '/posts/publications'
+    weight = 20
+[[menu.main]]
+    name = 'Projects'
+    pageRef = '/posts/prj'
+    weight = 30
+[[menu.main]]
+    name = 'My Paintings'
+    pageRef = '/posts/trivial'
+    weight = 40
+
+[[resources]]
+    name = 'test_img'
+    src = 'posts/pics/test.png'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
