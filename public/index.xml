@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hi, there! Welcome to Zhengjia Xu&#39;s page!</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Hi, there! Welcome to Zhengjia Xu&#39;s page!</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cv/</guid>
+      <description>&lt;!-- Zhengjia Xu --&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/intro/</guid>
+      <description>&lt;div style=&#34;text-align:center;&#34;&gt;&#xA;    &lt;br&gt;&#xA;    &lt;!-- &lt;img id=&#34;me&#34; src=&#34;http://localhost:1313/pics/me_in_menga.png&#34; width=&#34;15%&#34; style=&#34;margin:0 auto;&#34; /&gt; --&gt;&#xA;    &lt;img id=&#34;me&#34; src=&#34;http://localhost:1313/pics/me.gif&#34; width=&#34;15%&#34; style=&#34;margin:0 auto;&#34; /&gt;&#xA;&lt;/div&gt;&#xA;&lt;script&gt;&#xA;    var baseUrl_ = window.location.href.indexOf(&#39;localhost&#39;) !== -1&#xA;        ? &#39;http://localhost:1313&#39;&#xA;        : &#39;https://xzjisme.github.io/zenga&#39;;&#xA;    var pic_me = document.getElementById(&#39;me&#39;);&#xA;   // me.src = baseUrl_ + &#34;/pics/me_in_menga.png&#34;;&#xA;    me.src = baseUrl_ + &#34;/pics/me.gif&#34;;&#xA;&lt;/script&gt;&#xA;&lt;p&gt;👋🏼 Nihao, I am &lt;strong&gt;Zhengjia Xu (徐 正佳)&lt;/strong&gt; (hard to pronounce? If so, just call me Zenga). I received a master&amp;rsquo;s degree in Software Engineering from &lt;a href=&#34;https://www.seu.edu.cn/english/main.htm&#34;&gt;Southeast University&lt;/a&gt; in June 2024, supervised by Prof. &lt;a href=&#34;https://jhzhangseu.gitee.io/&#34;&gt;Jinghui Zhang&lt;/a&gt;. I recieved my B.S. degree in Software Engineering from &lt;a href=&#34;http://eng.cczu.edu.cn/main.htm&#34;&gt;Changzhou University&lt;/a&gt; in 2021. Now I am an incoming PhD student in graph analysis/graph theory at Macquarie University.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/prj/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/prj/</guid>
+      <description>&lt;h2 id=&#34;personal-toy-porjects&#34;&gt;Personal Toy Porjects&lt;/h2&gt;&#xA;&lt;h3 id=&#34;shuttext&#34; style=&#34;text-align: left !important;&#34;&gt;1. &lt;a href=&#34;https://github.com/XZJIsme/didide-BERT&#34;&gt;Didide&lt;/a&gt;: A toy project for Chinese character correcting&#xA;&lt;/h3&gt;&#xA;&lt;center&gt;&#xA;&lt;div style=&#34;text-align:center;&#34;&gt;&#xA;    &lt;img id=&#34;didide&#34; src=&#34;http://localhost:1313/pics/abc-de-de-and-de.jpg&#34; width=&#34;40%&#34; style=&#34;border: 1.5px solid #ddd; margin:0 auto;&#34; /&gt;&#xA;    &lt;figcaption class=&#34;image-source&#34; style=&#34;font-size: 0.8em; color: #999; text-align: center;&#34;&gt;&#xA;        Image source: &lt;a href=&#34;https://abcmandarinmission.wordpress.com/2013/02/08/saturday-grammar-the-differences-between-%E7%9A%84-de-%E5%9C%B0-de-and-%E5%BE%97-de/&#34;&gt;ABC MANDARIN MISSION&lt;/a&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/div&gt;&#xA;&lt;script&gt;&#xA;    var baseUrl_ = window.location.href.indexOf(&#39;localhost&#39;) !== -1&#xA;        ? &#39;http://localhost:1313&#39;&#xA;        : &#39;https://xzjisme.github.io/zenga&#39;;&#xA;    var pic_didide = document.getElementById(&#39;didide&#39;);&#xA;    pic_didide.src = baseUrl_ + &#34;/pics/abc-de-de-and-de.jpg&#34;;&#xA;&lt;/script&gt;&#xA;&lt;/center&gt;&#xA;&lt;p id=&#34;didideinto&#34;&gt;Didide is a project created by me to correct the misuse of the homophones 的, 地, and 得, which are often confused by beginners of Chinese and those who are careless. Source code can be found at &lt;a href=&#34;https://github.com/XZJIsme/didide-BERT&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/publications/</guid>
+      <description>&lt;!-- &lt;br&gt; --&gt;&#xA;&lt;!-- &lt;center&gt;Note: Jinghui Zhang is my master supervisor.&lt;/center&gt; --&gt;&#xA;&lt;h2 id=&#34;my-selected-publication&#34;&gt;My Selected Publication&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Jinghui Zhang (my supervisor), &lt;strong&gt;Zhengjia Xu (Corresponding Author)&lt;/strong&gt;, Dingyang Lv, Zhan Shi, Dian Shen, Jiahui Jin, Fang Dong. “DiG-In-GNN: Discriminative Feature Guided GNN-Based Fraud Detector against Inconsistencies in Multi-Relation Fraud Graph.” In: &lt;em&gt;The 38th Annual AAAI Conference on Artificial Intelligence (AAAI)&lt;/em&gt;, Vancouver, Canada, 2024.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/thanks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/thanks/</guid>
+      <description>&lt;p&gt;Research Partner: Dingyang Lyu Lv&#xA;Supervisor: Jinghui Zhang&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/trivial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/trivial/</guid>
+      <description>&lt;h3 id=&#34;i-draw-something-sometimes-&#34;&gt;I draw something, sometimes :)&lt;/h3&gt;&#xA;&lt;center&gt;&#xA;&lt;!-- me2.png --&gt;&#xA;&lt;div style=&#34;text-align:center;&#34;&gt;&#xA;    &lt;br&gt;&#xA;    &lt;img id=&#34;me2&#34; src=&#34;http://localhost:1313/pics/271839939-b53fc189-3983-480c-b57f-0fc042862e28.png&#34; width=&#34;65%&#34; style=&#34;margin:0 auto;&#34; /&gt;&#xA;&lt;/div&gt;&#xA;&lt;!-- 2023-xzj.jpg --&gt;&#xA;&lt;div style=&#34;text-align:center;&#34;&gt;&#xA;&amp;nbsp;&lt;br&gt;&amp;nbsp;&#xA;    &lt;img id=&#34;me&#34; src=&#34;http://localhost:1313/pics/2023-xzj.jpg&#34; width=&#34;75%&#34; style=&#34;margin:0 auto;&#34; /&gt;&#xA;&lt;/div&gt;&#xA;&lt;script&gt;&#xA;    var baseUrl_ = window.location.href.indexOf(&#39;localhost&#39;) !== -1&#xA;        ? &#39;http://localhost:1313&#39;&#xA;        : &#39;https://xzjisme.github.io/zenga&#39;;&#xA;    var pic_me = document.getElementById(&#39;me&#39;);&#xA;    me.src = baseUrl_ + &#34;/pics/2023-xzj.jpg&#34;;&#xA;    var pic_me2 = document.getElementById(&#39;me2&#39;);&#xA;    me2.src = baseUrl_ + &#34;/pics/271839939-b53fc189-3983-480c-b57f-0fc042862e28.png&#34;;&#xA;&lt;/script&gt;&#xA;&lt;/center&gt;&#xA;&lt;!-- Listen, 不要温和地走向愚昧…… --&gt;</description>
+    </item>
+  </channel>
+</rss>

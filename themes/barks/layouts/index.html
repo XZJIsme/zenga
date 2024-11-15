@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+    <article>
+        {{ .Content }}
+    </article>
+
+    <script>
+        var baseUrl_ = window.location.href.indexOf('localhost') !== -1
+            ? 'http://localhost:1313'
+            : 'https://xzjisme.github.io/zenga';
+        
+        window.location.href = baseUrl_ + "/posts/intro/";
+    </script>
+
+{{ end }}

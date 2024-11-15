@@ -1,0 +1,23 @@
+{{ if not (eq .Site.Params.footer.show_footer false) }}
+<footer>
+
+    {{ if isset .Site.Params "social" }}
+    {{ with .Site.Params.social }}
+    <ul>
+        {{ range sort . "weight" }}
+        <li><a href="{{ .url }}" title="{{ .name }}"><i class="{{ .class }}"></i></a></li>
+        {{ end }}
+    </ul>
+    <!-- Inspired by <a href="https://louise-lulin.github.io/" title="Lu Lin">Lu Lin</a>, based on <a -->
+        Based on <a
+        href="https://timothygebhard.de/" title="Timothy">Timothy</a>'s nice <a
+        href="https://timothygebhard.de/projects/barks/" title="I modified a lot, I think. XD~">theme</a>, powered by <a
+        href="https://gohugo.io/" title="Hugo">Hugo</a>.<br>Thanks to the <a href="https://github.com/mozilla/pdf.js/"
+            title="PDF.js">PDF.js</a> which makes the pdfs can be rendered beautifully ( though seems not that good on mobile devices ).
+    {{ end }}
+    {{ end }}
+
+    {{ .Site.Copyright | safeHTML }}
+
+</footer>
+{{ end }}

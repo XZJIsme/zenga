@@ -1,0 +1,29 @@
+
+header {
+	text-align: center;
+	position: static;
+	margin-top: 60px;
+    line-height: 1.1;
+}
+
+header .title {
+    font-family: $title-font, serif;
+    font-size: 42px;
+    text-decoration: none;
+    // margin: 10px;
+    // padding: 0;
+    color: $text-color;
+    font-display: swap;
+}
+
+@media only screen and (max-width: 400px) {
+
+    header .title {
+        margin-bottom: 100px;
+    }
+
+    header .title {
+        font-size: 33px;
+    }
+
+}

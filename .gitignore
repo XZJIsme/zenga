@@ -1,0 +1,5 @@
+.hugo_build.lock
+._*
+.DS_Store
+./vscode/
+settings.json

@@ -1,0 +1,18 @@
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.87.0"
+
+[params.social]
+    [params.social.github]
+        name = "GitHub"
+        class = "fab fa-github"
+        url = "https://github.com/XZJIsme"
+        weight = 2
+        
+[params.colors]
+    text_color = "#1c1c1b"
+    link_color = "#80796c"
+
+
+  

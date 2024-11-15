@@ -1,0 +1,14 @@
+
+<header>
+    <a id="hithere" href="/" class="title">{{ .Site.Title | safeHTML }}</a>  
+
+    <script>
+        var baseUrl_ = window.location.href.indexOf('localhost') !== -1
+            ? 'http://localhost:1313'
+            : 'https://xzjisme.github.io/zenga';
+        
+        var element_a = document.getElementById("hithere");
+        element_a.href = baseUrl_ + "/posts/intro/";
+    </script>
+
+</header>

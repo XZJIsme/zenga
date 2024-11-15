@@ -1,0 +1,25 @@
+
+<article class="post">
+
+    <script>
+        var baseUrl_ = window.location.href.indexOf('localhost') !== -1
+            ? 'http://localhost:1313'
+            : 'https://xzjisme.github.io/zenga';
+        
+        window.location.href = baseUrl_ + "/posts/intro/";
+    </script>
+
+    {{ partial "post_title.html" . }}
+
+    <!-- {{- .Content | safeHTML | truncate 600 -}}
+    
+    {{- if gt (len (.Content | safeHTML)) 600 -}}
+        <div class="read-more">
+            <a href="{{ .RelPermalink }}">Continue reading...</a>
+        </div>
+
+        
+    {{- end -}} -->
+
+
+</article>
