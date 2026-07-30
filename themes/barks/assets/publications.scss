@@ -18,6 +18,10 @@
     border-top: 1px solid rgba(invert($background-color), 0.2);
 }
 
+.latest-publications > h2:first-child {
+    margin-top: 0.9em;
+}
+
 .latest-publications__item {
     display: block;
 }

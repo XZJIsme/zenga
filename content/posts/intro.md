@@ -23,4 +23,4 @@ My research interests include reliability and security in language models, parti
 
 📠 If you are interested, you can reach me via: zhengjia.xu [æt] hdr.mq.edu.au.
 
-{{< latest-publications count="2" >}}
+{{< latest-publications count="3" >}}
