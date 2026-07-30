@@ -7,7 +7,7 @@
   <div class="latest-publications__list">
     {{- range first $count $papers }}
       <article class="latest-publications__item">
-        <div class="latest-publications__title"><span class="latest-publications__marker" aria-hidden="true">✨</span>{{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}.{{ with .githubUrl }} {{ partial "github-repo-link.html" . }}{{ end }}</div>
+        <div class="latest-publications__title"><span class="latest-publications__marker" aria-hidden="true">✨</span>{{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}.{{ with .githubUrl }} {{ partial "github-repo-link.html" . }}{{ end }}{{ with .pdfUrl }} {{ partial "pdf-link.html" . }}{{ end }}</div>
         <div class="latest-publications__details">
           {{ partial "publication-authors.html" .authors }}.
           <em>{{ .venueShortName }}</em>, {{ .displayDate }}.

@@ -9,7 +9,8 @@
         “{{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}.”
         In: <em>{{ .venueFullName }}{{ with .venueShortName }} ({{ . }}){{ end }}</em>,
         {{ .displayDate }}.{{ with .rankings }} ({{ delimit . ", " }}){{ end }}{{ with .githubUrl }}
-        {{ partial "github-repo-link.html" . }}{{ end }}
+        {{ partial "github-repo-link.html" . }}{{ end }}{{ with .pdfUrl }}
+        {{ partial "pdf-link.html" . }}{{ end }}
       </li>
     {{- end }}
   </ol>
@@ -22,7 +23,22 @@
         “{{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}.”
         In: <em>{{ .venueFullName }}</em>{{ with .volume }}, {{ . }}{{ end }}{{ with .pages }}, {{ . }}{{ end }},
         {{ .displayDate }}.{{ with .rankings }} ({{ delimit . ", " }}){{ end }}{{ with .githubUrl }}
-        {{ partial "github-repo-link.html" . }}{{ end }}
+        {{ partial "github-repo-link.html" . }}{{ end }}{{ with .pdfUrl }}
+        {{ partial "pdf-link.html" . }}{{ end }}
+      </li>
+    {{- end }}
+  </ol>
+
+  <h2>Arxiv Papers</h2>
+  <ol>
+    {{- range where $items "type" "arxiv" }}
+      <li>
+        {{ partial "publication-authors.html" .authors }}.
+        “{{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}.”
+        In: <em>{{ .venueFullName }}:{{ .arxivId }}{{ with .subject }} [{{ . }}]{{ end }}</em>,
+        {{ .displayDate }}.{{ with .githubUrl }}
+        {{ partial "github-repo-link.html" . }}{{ end }}{{ with .pdfUrl }}
+        {{ partial "pdf-link.html" . }}{{ end }}
       </li>
     {{- end }}
   </ol>
@@ -33,7 +49,8 @@
       <li>
         “{{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}.”
         {{ partial "publication-authors.html" .authors }}. ({{ .patentNumber }}){{ with .githubUrl }}
-        {{ partial "github-repo-link.html" . }}{{ end }}
+        {{ partial "github-repo-link.html" . }}{{ end }}{{ with .pdfUrl }}
+        {{ partial "pdf-link.html" . }}{{ end }}
       </li>
     {{- end }}
   </ol>

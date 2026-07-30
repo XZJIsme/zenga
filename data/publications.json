@@ -20,7 +20,8 @@
       "dateSource": "https://kdd2026.kdd.org/",
       "rankings": ["CCF-A", "CORE-A*"],
       "url": "",
-      "githubUrl": "https://github.com/XZJIsme/k1-poi"
+      "githubUrl": "https://github.com/XZJIsme/k1-poi",
+      "pdfUrl": "https://raw.githubusercontent.com/XZJIsme/k1-poi/main/paper/k1-poi.pdf"
     },
     {
       "id": "zhang-2024-dig-in-gnn",
@@ -45,6 +46,27 @@
       "doi": "10.1609/aaai.v38i8.28785",
       "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28785",
       "githubUrl": "https://github.com/GraphBerry/DiG-In-GNN"
+    },
+    {
+      "id": "xu-2024-slicing-input-features",
+      "type": "arxiv",
+      "title": "Slicing Input Features to Accelerate Deep Learning: A Case Study with Graph Neural Networks",
+      "authors": [
+        { "name": "Zhengjia Xu", "self": true },
+        { "name": "Dingyang Lyu" },
+        { "name": "Jinghui Zhang" }
+      ],
+      "venueFullName": "arXiv",
+      "venueShortName": "arXiv",
+      "displayDate": "2024",
+      "sortDate": "2024-08-21",
+      "sortDateBasis": "Initial arXiv submission date",
+      "dateSource": "https://arxiv.org/abs/2408.11500",
+      "arxivId": "2408.11500",
+      "subject": "Machine Learning (cs.LG)",
+      "doi": "10.48550/arXiv.2408.11500",
+      "url": "https://arxiv.org/abs/2408.11500",
+      "pdfUrl": "https://arxiv.org/pdf/2408.11500"
     },
     {
       "id": "lv-2023-imbalanced-node-classification",
