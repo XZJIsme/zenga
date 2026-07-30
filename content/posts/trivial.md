@@ -4,13 +4,13 @@
 <!-- me2.png -->
 <div style="text-align:center;">
     <br>
-    <img id="me2" src="/pics/271839939-b53fc189-3983-480c-b57f-0fc042862e28.png" width="65%" style="margin:0 auto;" />
+    <img id="me2" src="/pics/271839939-b53fc189-3983-480c-b57f-0fc042862e28.png" style="width:100%; max-width:720px; height:auto; margin:0 auto;" />
 </div>
 
 <!-- 2023-xzj.jpg -->
 <div style="text-align:center;">
 &nbsp;<br>&nbsp;
-    <img id="me" src="/pics/2023-xzj.jpg" width="75%" style="margin:0 auto;" />
+    <img id="me" src="/pics/2023-xzj.jpg" style="width:100%; max-width:720px; height:auto; margin:0 auto;" />
 </div>
 
 <script>

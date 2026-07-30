@@ -1,5 +1,23 @@
-.hugo_build.lock
-._*
+# Hugo build output and generated resources
+/public/
+/resources/_gen/
+/.hugo_build.lock
+/hugo_stats.json
+
+# Local reference material
+/参考/
+
+# macOS
 .DS_Store
-./vscode/
-settings.json
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

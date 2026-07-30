@@ -22,7 +22,7 @@
 
 <p id="didideinto">Didide is a project created by me to correct the misuse of the homophones 的, 地, and 得, which are often confused by beginners of Chinese and those who are careless. Source code can be found at <a href="https://github.com/XZJIsme/didide-BERT">GitHub</a>.</p>
 <div class="highlight" style="width:100%;">
-<pre tabindex="0" style="color:#181112;background-color:#f5f1ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display: inline-block; width: 100%;">
+<pre tabindex="0" style="color:#181112;background-color:#f5f1ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python playground.py <span style="color:#6a2b14">"我觉的我烦的有点难过，因为我得培根忘记吃了"</span> <span style="color:#6a2b14">"didide_model.pt"</span>
 </span></span><span style="display:flex;"><span><span style="color:#676767"># the output'd be: 我觉得我烦得有点难过，因为我的培根忘记吃了</span>
 </span></span><span style="display:flex;"><span>python playground.py <span style="color:#6a2b14">"我觉的我烦的有点难过，因为我得培根忘记吃了，而且这种东西得营养一般般，但是好吃的哟！我天天早上开心的享受它的味道，开心的受不鸟哩！我咔咔的吃，吃的要满嘴流油 ，哈哈哈，痛快放肆的吃"</span> <span style="color:#6a2b14">"didide_model.pt"</span>
@@ -74,5 +74,4 @@ When I first started programming, I didn't like the spaces that appeared after t
 </div>
 
  
-
 

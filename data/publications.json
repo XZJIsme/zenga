@@ -1,0 +1,155 @@
+{
+  "items": [
+    {
+      "id": "xu-2026-last-check-in",
+      "type": "conference",
+      "title": "Is the Last Check-In All You Need? Next POI Recommendation: Recall and Rerank",
+      "authors": [
+        { "name": "Zhengjia Xu", "self": true },
+        { "name": "Dingyang Lyu" },
+        { "name": "Zitai Qiu" },
+        { "name": "Shan Xue" },
+        { "name": "Jian Yang" },
+        { "name": "Jia Wu" }
+      ],
+      "venueFullName": "The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "venueShortName": "KDD",
+      "displayDate": "2026",
+      "sortDate": "2026-08-09",
+      "sortDateBasis": "Conference start date; the official publication date is still to be confirmed",
+      "dateSource": "https://kdd2026.kdd.org/",
+      "rankings": ["CCF-A", "CORE-A*"],
+      "url": "",
+      "githubUrl": "https://github.com/XZJIsme/k1-poi"
+    },
+    {
+      "id": "zhang-2024-dig-in-gnn",
+      "type": "conference",
+      "title": "DiG-In-GNN: Discriminative Feature Guided GNN-Based Fraud Detector against Inconsistencies in Multi-Relation Fraud Graph",
+      "authors": [
+        { "name": "Jinghui Zhang" },
+        { "name": "Zhengjia Xu", "self": true },
+        { "name": "Dingyang Lv" },
+        { "name": "Zhan Shi" },
+        { "name": "Dian Shen" },
+        { "name": "Jiahui Jin" },
+        { "name": "Fang Dong" }
+      ],
+      "venueFullName": "The 38th AAAI Conference on Artificial Intelligence",
+      "venueShortName": "AAAI",
+      "displayDate": "2024",
+      "sortDate": "2024-03-24",
+      "sortDateBasis": "Official publication date",
+      "dateSource": "https://ojs.aaai.org/index.php/AAAI/article/view/28785",
+      "rankings": ["CCF-A", "CORE-A*"],
+      "doi": "10.1609/aaai.v38i8.28785",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28785",
+      "githubUrl": "https://github.com/GraphBerry/DiG-In-GNN"
+    },
+    {
+      "id": "lv-2023-imbalanced-node-classification",
+      "type": "journal",
+      "title": "Imbalanced Node Classification with Graph Neural Networks: A Unified Approach Leveraging Homophily and Label Information",
+      "authors": [
+        { "name": "Dingyang Lv" },
+        { "name": "Zhengjia Xu", "self": true },
+        { "name": "Jinghui Zhang" },
+        { "name": "Yuchen Wang" },
+        { "name": "Fang Dong" }
+      ],
+      "venueFullName": "Applied Soft Computing Journal",
+      "venueShortName": "Applied Soft Computing",
+      "displayDate": "2023",
+      "sortDate": "2023-12-01",
+      "sortDateBasis": "Publisher metadata specifies December 2023 without a day",
+      "dateSource": "https://www.sciencedirect.com/science/article/abs/pii/S1568494623010037",
+      "rankings": ["JCR-Q1"],
+      "articleNumber": "110985",
+      "doi": "10.1016/j.asoc.2023.110985",
+      "url": "https://doi.org/10.1016/j.asoc.2023.110985"
+    },
+    {
+      "id": "weng-2023-freezepipe",
+      "type": "conference",
+      "title": "FreezePipe: An Efficient Dynamic Pipeline Parallel Approach Based on Freezing Mechanism for Distributed DNN Training",
+      "authors": [
+        { "name": "Caishan Weng" },
+        { "name": "Zhiyang Shu" },
+        { "name": "Zhengjia Xu", "self": true },
+        { "name": "Jinghui Zhang" },
+        { "name": "Junzhou Luo" },
+        { "name": "Fang Dong" },
+        { "name": "Peng Wang" },
+        { "name": "Zhengang Wang" }
+      ],
+      "venueFullName": "The 26th International Conference on Computer Supported Cooperative Work in Design",
+      "venueShortName": "CSCWD",
+      "displayDate": "2023",
+      "sortDate": "2023-05-24",
+      "sortDateBasis": "Conference and publication date in DOI metadata",
+      "dateSource": "https://api.crossref.org/works/10.1109%2FCSCWD57460.2023.10152643",
+      "rankings": ["CCF-C", "CORE-C"],
+      "pages": "303–308",
+      "doi": "10.1109/CSCWD57460.2023.10152643",
+      "url": "https://doi.org/10.1109/CSCWD57460.2023.10152643"
+    },
+    {
+      "id": "zhang-2023-wifi-device-identification",
+      "type": "journal",
+      "title": "Wi-Fi device identification based on multi-domain physical layer fingerprint",
+      "authors": [
+        { "name": "Jinghui Zhang" },
+        { "name": "Zhengjia Xu", "self": true },
+        { "name": "Junhe Li" },
+        { "name": "Qiangsheng Dai" },
+        { "name": "Zhen Ling" },
+        { "name": "Ming Yang" }
+      ],
+      "venueFullName": "Computer Communications",
+      "venueShortName": "Computer Communications",
+      "displayDate": "2023",
+      "sortDate": "2023-04-15",
+      "sortDateBasis": "Publisher issue date",
+      "dateSource": "https://www.sciencedirect.com/science/article/abs/pii/S0140366423001032",
+      "rankings": ["CCF-C", "JCR-Q2"],
+      "volume": "204",
+      "pages": "118–129",
+      "doi": "10.1016/j.comcom.2023.03.024",
+      "url": "https://doi.org/10.1016/j.comcom.2023.03.024"
+    },
+    {
+      "id": "cn115437795b",
+      "type": "patent",
+      "title": "A load-aware memory reallocation optimization method and system for heterogeneous acceleration device",
+      "authors": [
+        { "name": "Jinghui Zhang" },
+        { "name": "Caishan Weng" },
+        { "name": "Zhengjia Xu", "self": true },
+        { "name": "Jiange Li" },
+        { "name": "Fang Dong" },
+        { "name": "Junzhou Luo" }
+      ],
+      "displayDate": "2023",
+      "sortDate": "2023-03-24",
+      "patentNumber": "CN115437795B",
+      "url": "https://patents.google.com/patent/CN115437795B/en"
+    },
+    {
+      "id": "cn115664905a",
+      "type": "patent",
+      "title": "A Wi-Fi device identification system and method based on multi-domain physical layer fingerprint features",
+      "authors": [
+        { "name": "Jinghui Zhang" },
+        { "name": "Caishan Weng" },
+        { "name": "Zhengjia Xu", "self": true },
+        { "name": "Zhen Ling" },
+        { "name": "Ming Yang" },
+        { "name": "Junzhou Luo" }
+      ],
+      "displayDate": "2023",
+      "sortDate": "2023-01-31",
+      "patentNumber": "CN115664905A",
+      "url": "https://patents.google.com/patent/CN115664905A/en"
+    }
+  ]
+}

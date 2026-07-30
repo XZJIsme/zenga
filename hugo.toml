@@ -23,12 +23,11 @@ enableRobotsTXT = true
     pageRef = '/posts/trivial'
     weight = 40
 
-[[resources]]
-    name = 'test_img'
-    src = 'posts/pics/test.png'
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
+[params]
+  [params.colors]
+    background_color = "#ffffff"

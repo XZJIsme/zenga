@@ -6,13 +6,10 @@
 [params.social]
     [params.social.github]
         name = "GitHub"
-        class = "fab fa-github"
+        icon = "icons/github.svg"
         url = "https://github.com/XZJIsme"
         weight = 2
-        
+
 [params.colors]
     text_color = "#1c1c1b"
     link_color = "#80796c"
-
-
-  

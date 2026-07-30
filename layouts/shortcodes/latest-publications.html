@@ -1,0 +1,21 @@
+{{- $count := .Get "count" | default 2 | int -}}
+{{- $papers := where .Site.Data.publications.items "type" "ne" "patent" -}}
+{{- $papers = sort $papers "sortDate" "desc" -}}
+
+<section class="latest-publications">
+  <h2>Latest Publications</h2>
+  <div class="latest-publications__list">
+    {{- range first $count $papers }}
+      <article class="latest-publications__item">
+        <div class="latest-publications__title"><span class="latest-publications__marker" aria-hidden="true">✨</span>{{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}.{{ with .githubUrl }} {{ partial "github-repo-link.html" . }}{{ end }}</div>
+        <div class="latest-publications__details">
+          {{ partial "publication-authors.html" .authors }}.
+          <em>{{ .venueShortName }}</em>, {{ .displayDate }}.
+        </div>
+      </article>
+    {{- end }}
+  </div>
+  <p class="latest-publications__all">
+    <a href="{{ "posts/publications/" | relURL }}">View all publications →</a>
+  </p>
+</section>

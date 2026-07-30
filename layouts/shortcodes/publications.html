@@ -1,0 +1,40 @@
+{{- $items := sort .Site.Data.publications.items "sortDate" "desc" -}}
+
+<div class="publications-list">
+  <h2>Conference Papers</h2>
+  <ol>
+    {{- range where $items "type" "conference" }}
+      <li>
+        {{ partial "publication-authors.html" .authors }}.
+        “{{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}.”
+        In: <em>{{ .venueFullName }}{{ with .venueShortName }} ({{ . }}){{ end }}</em>,
+        {{ .displayDate }}.{{ with .rankings }} ({{ delimit . ", " }}){{ end }}{{ with .githubUrl }}
+        {{ partial "github-repo-link.html" . }}{{ end }}
+      </li>
+    {{- end }}
+  </ol>
+
+  <h2>Journal Papers</h2>
+  <ol>
+    {{- range where $items "type" "journal" }}
+      <li>
+        {{ partial "publication-authors.html" .authors }}.
+        “{{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}.”
+        In: <em>{{ .venueFullName }}</em>{{ with .volume }}, {{ . }}{{ end }}{{ with .pages }}, {{ . }}{{ end }},
+        {{ .displayDate }}.{{ with .rankings }} ({{ delimit . ", " }}){{ end }}{{ with .githubUrl }}
+        {{ partial "github-repo-link.html" . }}{{ end }}
+      </li>
+    {{- end }}
+  </ol>
+
+  <h2>Patents</h2>
+  <ol>
+    {{- range where $items "type" "patent" }}
+      <li>
+        “{{ with .url }}<a href="{{ . }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}.”
+        {{ partial "publication-authors.html" .authors }}. ({{ .patentNumber }}){{ with .githubUrl }}
+        {{ partial "github-repo-link.html" . }}{{ end }}
+      </li>
+    {{- end }}
+  </ol>
+</div>

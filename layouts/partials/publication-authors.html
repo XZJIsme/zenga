@@ -1,0 +1,8 @@
+{{- $authors := . -}}
+{{- $lastIndex := sub (len $authors) 1 -}}
+{{- range $index, $author := $authors -}}
+  {{- if gt $index 0 -}}
+    {{- if eq $index $lastIndex -}}, and {{ else }}, {{ end -}}
+  {{- end -}}
+  {{- if $author.self -}}<strong>{{ $author.name }}</strong>{{- else -}}{{ $author.name }}{{- end -}}
+{{- end -}}
